@@ -99,7 +99,7 @@ client.on('message', message => {
             })
         r.catch(() => {
             return message.channel.send(`:negative_squared_cross_mark: لقد انتهى الوقت ولم يقم أحد بالأجابة بشكل صحيح 
-            الإجآبة الصحيحة هي __**${x2[x3]}**__`)
+            الإجابة الصحيحة هي __**${x2[x3]}**__`)
         })
         
         r.then((collected)=> {
@@ -201,7 +201,7 @@ client.on('message', fkk => {
             })
         r.catch(() => {
             return fkk.channel.send(`:negative_squared_cross_mark: لقد انتهى الوقت ولم يقم أحد بالأجابة بشكل صحيح 
-            الإجآبة الصحيحة هي __**${x2[x3]}**__`)
+            الإجابة الصحيحة هي __**${x2[x3]}**__`)
         })
         
         r.then((collected)=> {
